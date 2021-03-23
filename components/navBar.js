@@ -75,7 +75,7 @@ export default function NavBar({ services }) {
                 </a>
               </div>
             </div>
-            {/* <div className="col-lg-8 d-none d-lg-block">
+            <div className="col-lg-8 d-none d-lg-block">
               <div className="main-menu">
                 <nav className="nav_mobile_menu">
                   <ul>
@@ -141,91 +141,6 @@ export default function NavBar({ services }) {
                     </li>
                     <li>
                       <a href="/become-a-dispatcher">Become A Dispatcher</a>
-                    </li>
-                  </ul>
-                </nav>
-              </div>
-            </div> */}
-            <div className="col-lg-8 d-none d-lg-block">
-              <div className="main-menu">
-                <nav className="nav_mobile_menu">
-                  <ul>
-                    <li className="active">
-                      <a href="#">Home</a>
-                      <ul className="submenu">
-                        <li className="active">
-                          <a href="index-2.html">Home One</a>
-                        </li>
-                        <li>
-                          <a href="index-3.html">Home Two</a>
-                        </li>
-                        <li>
-                          <a href="index-4.html">Home Three</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a href="about.html">About</a>
-                    </li>
-                    <li>
-                      <a href="#">Services</a>
-                      <ul className="submenu">
-                        <li>
-                          <a href="service.html">service single</a>
-                        </li>
-                        <li>
-                          <a href="Freight.html">Air Freight</a>
-                        </li>
-                        <li>
-                          <a href="road.html">Road Freight</a>
-                        </li>
-                        <li>
-                          <a href="ocean.html">Ocean Freight</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a href="case.html">Pages</a>
-                      <ul className="submenu">
-                        <li>
-                          <a href="pricing.html">pricing table</a>
-                        </li>
-                        <li>
-                          <a href="team.html">Team</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a href="contact.html">Contact</a>
-                    </li>
-                    <li>
-                      <a href="#">Blog</a>
-                      <ul className="submenu">
-                        <li>
-                          <a href="blog.html">Blog with right sidebar</a>
-                        </li>
-                        <li>
-                          <a href="blog-right.html">Blog with Left sidebar</a>
-                        </li>
-                        <li>
-                          <a href="blog-fullwidth.html">Blog full width</a>
-                        </li>
-                        <li>
-                          <a href="blog-details.html">
-                            Blog single right sidebar
-                          </a>
-                        </li>
-                        <li>
-                          <a href="blog-details-right.html">
-                            Blog single left sidebar
-                          </a>
-                        </li>
-                        <li>
-                          <a href="blog-details-fullwidth.html">
-                            Blog single fullwidth
-                          </a>
-                        </li>
-                      </ul>
                     </li>
                   </ul>
                 </nav>
