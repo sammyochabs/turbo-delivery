@@ -1,14 +1,11 @@
 import Head from "next/head";
-import { Fragment } from "react";
-import Banner from "../components/banner";
-import Faq from "../components/faq";
+import React, { Fragment } from "react";
+import DispatcherFaq from "../components/dispatcherFaq";
 import Footer from "../components/footer";
+import JoinUs from "../components/joinUs";
 import NavBar from "../components/navBar";
-import Stepper from "../components/stepper";
-import Testimonial from "../components/testimonial";
-import styles from "../styles/Home.module.css";
 
-export default function HomePage() {
+export default function BecomeADispatcher() {
   return (
     <Fragment>
       <Head>
@@ -39,16 +36,9 @@ export default function HomePage() {
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
       </Head>
-      <div className="page-loader">
-        <div className="page-loader-inner">
-          <div className="inner"></div>
-        </div>
-      </div>
-      <NavBar />
-      <Banner />
-      <Stepper />
-      <Faq />
-      <Testimonial />
+      <NavBar services={true} />
+      <JoinUs />
+      <DispatcherFaq />
       <Footer />
       <script src="assets/js/jquery.min.js"></script>
       <script src="assets/js/bootstrap.min.js"></script>
