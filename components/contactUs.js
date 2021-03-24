@@ -1,56 +1,53 @@
-import React from "react";
+import React, { Fragment } from "react";
 
 export default function ContactUs({ services }) {
   return (
-    <div>
+    <Fragment>
       <header>
-        <div className="header-top">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-6 col-sm-12 col-12 col-lg-6">
-                <ul className="d-flex account_login-area">
+        <div class="header-top">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 col-sm-12 col-12 col-lg-6">
+                <ul class="d-flex account_login-area">
                   <li>
-                    <i className="fa fa-clock-o" aria-hidden="true"></i>Mon -
-                    Fri : 6.00 am - 10.00 pm, Sunday Closed
+                    <i class="fa fa-clock-o" aria-hidden="true"></i>Mon - Tues :
+                    6.00 am - 10.00 pm, Sunday Closed
                   </li>
                 </ul>
               </div>
-              <div className="col-md-6 col-sm-12 col-12 col-lg-6">
-                <div className="row">
-                  <div className="col-lg-7 col-md-6">
-                    <ul className="d-flex header-social">
+              <div class="col-md-6 col-sm-12 col-12 col-lg-6">
+                <div class="row">
+                  <div class="col-lg-7 col-md-6">
+                    <ul class="d-flex header-social">
                       <li>
                         <a href="#">
-                          <i className="fa fa-facebook" aria-hidden="true"></i>
+                          <i class="fa fa-facebook" aria-hidden="true"></i>
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          <i className="fa fa-twitter" aria-hidden="true"></i>
+                          <i class="fa fa-twitter" aria-hidden="true"></i>
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          <i className="fa fa-instagram" aria-hidden="true"></i>
+                          <i class="fa fa-instagram" aria-hidden="true"></i>
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          <i
-                            className="fa fa-google-plus"
-                            aria-hidden="true"
-                          ></i>
+                          <i class="fa fa-google-plus" aria-hidden="true"></i>
                         </a>
                       </li>
                     </ul>
                   </div>
-                  <div className="col-lg-5 col-md-6">
-                    <ul className="login-r">
+                  <div class="col-lg-5 col-md-6">
+                    <ul class="login-r">
                       <li>
                         <a href="/customer-login">Login</a>
                       </li>
                       <li>
-                        <a href="customer-register">Register</a>
+                        <a href="driver-register">Become A Picker</a>
                       </li>
                     </ul>
                   </div>
@@ -59,34 +56,34 @@ export default function ContactUs({ services }) {
             </div>
           </div>
         </div>
-        <div className="header-top header-top-2">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-3 col-md-3 col-sm-12 col-12">
-                <div className="logo">
+        <div class="header-top header-top-2">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                <div class="logo">
                   <a href="index-2.html">
                     <img src="assets/images/logo/logo-2.png" alt="" />
                   </a>
                 </div>
               </div>
-              <div className="col-md-9 col-sm-12 col-12 col-lg-9">
-                <ul className="d-flex account_login-area">
-                  <li className="account-item">
+              <div class="col-md-9 col-sm-12 col-12 col-lg-9">
+                <ul class="d-flex account_login-area">
+                  <li class="account-item">
                     <img src="assets/images/icon/call.svg" alt="" />
                     <h5>
-                      <span>Call Us Now</span>+234 090 9000 000{" "}
+                      <span>Call Us Now</span>T+(008) 001-234-567{" "}
                     </h5>
                   </li>
-                  <li className="account-item account-item-2">
+                  <li class="account-item account-item-2">
                     <img src="assets/images/icon/message.svg" alt="" />
                     <h5>
-                      <span>Mail Us Today</span>turbo@gmail.com
+                      <span>Mail Us Today</span>youremail@gmail.com
                     </h5>
                   </li>
-                  <li className="account-item">
+                  <li class="account-item">
                     <img src="assets/images/icon/map.svg" alt="" />
                     <h5>
-                      <span>Company Location</span>1230 Turbo Street, Lagos
+                      <span>Company Location</span>1230 Banena Street, London
                     </h5>
                   </li>
                 </ul>
@@ -94,86 +91,42 @@ export default function ContactUs({ services }) {
             </div>
           </div>
         </div>
-        <div className="header-area header-style-2">
-          <div className="header-sub" id="sticky-header">
-            <div className="container">
-              <div className="row">
-                <div className="col-lg-8 d-none d-lg-block">
-                  <div className="main-menu">
-                    <nav className="nav_mobile_menu">
+        <div class="header-area header-style-2">
+          <div class="header-sub" id="sticky-header">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8 d-none d-lg-block">
+                  <div class="main-menu">
+                    <nav class="nav_mobile_menu">
                       <ul>
-                        <li className="active">
+                        <li>
                           <a href="/">Home</a>
                         </li>
                         <li>
-                          <a href="about.html">About</a>
+                          <a href="/about">About</a>
                         </li>
-                        {services ? (
-                          <li>
-                            <a href="#">TOP CITIES</a>
-                            <ul className="submenu">
-                              <li>
-                                <a href="#">Lagos</a>
-                              </li>
-                              <li>
-                                <a href="#">Ibadan</a>
-                              </li>
-                              <li>
-                                <a href="#">Oyo</a>
-                              </li>
-                              <li>
-                                <a href="#">Ogun</a>
-                              </li>
-                              <li>
-                                <a href="#">Ondo</a>
-                              </li>
-                              <li>
-                                <a href="#">Abuja</a>
-                              </li>
-                              <li>
-                                <a href="#">P/harcourt</a>
-                              </li>
-                              <li>
-                                <a href="ocean.html">Ekiti</a>
-                              </li>
-                            </ul>
-                          </li>
-                        ) : (
-                          <li>
-                            <a href="/services">Services</a>
-                            <ul className="submenu">
-                              <li>
-                                <a href="#">Land Transport</a>
-                              </li>
-                              <li>
-                                <a href="#">Logistics Solutions</a>
-                              </li>
-                              <li>
-                                <a href="#">Packaging And Store</a>
-                              </li>
-                              <li>
-                                <a href="#">Ocean Freight</a>
-                              </li>
-                            </ul>
-                          </li>
-                        )}
-
+                        <li>
+                          <a href="/services">About</a>
+                        </li>
                         <li>
                           <a href="/testimonies">Testimonies</a>
                         </li>
+
                         <li>
-                          <a href="/contact-us">Contact</a>
-                        </li>
-                        <li>
-                          <a href="/become-a-dispatcher">Become A Dispatcher</a>
+                          <a href="/customer-register">Become A Customer</a>
                         </li>
                       </ul>
                     </nav>
                   </div>
                 </div>
 
-                <div className="col-12 col-sm-11 col-md-9 d-block d-lg-none">
-                  <div className="mobile_menu"></div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+                  <div class="btn-style btn-style2">
+                    <a href="#">Request a Quote</a>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-11 col-md-9 d-block d-lg-none">
+                  <div class="mobile_menu"></div>
                 </div>
               </div>
             </div>
@@ -181,102 +134,114 @@ export default function ContactUs({ services }) {
         </div>
       </header>
 
-      <div className="breadcumb-area">
-        <div className="container">
-          <div className="row">
-            <div className="col-12">
-              <div className="breadcumb-wrap text-center">
+      <div class="breadcumb-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="breadcumb-wrap text-center">
                 <h2>Contact Us</h2>
+                <ul>
+                  <li>
+                    <a href="index-2.html">Home</a>
+                  </li>
+                  <li>
+                    <span>Contact</span>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="contact-page-area section-padding">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-5 col-md-12">
-              <div className="contact-page-item">
+      <div class="contact-page-area section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 col-md-12">
+              <div class="contact-page-item">
                 <h2>Our Contacts</h2>
-                <p>You can Contact us via various channels</p>
-                <div className="adress">
+                <p>
+                  Contrary to popular belief, Lorem Ipsum is not simply random
+                  text. It has roots in a piece of classical Latin literature
+                  from 45 BC, making it over 2000 years old.
+                </p>
+                <div class="adress">
                   <h3>Address</h3>
                   <span>245 King Street, Touterie Victoria 8520 Australia</span>
                 </div>
-                <div className="phone">
+                <div class="phone">
                   <h3>Phone</h3>
                   <span>0-123-456-7890</span>
                   <span>0-123-456-7890</span>
                 </div>
-                <div className="email">
+                <div class="email">
                   <h3>Email</h3>
                   <span>sample@gmail.com</span>
                 </div>
               </div>
             </div>
-            <div className="col-lg-7 col-md-12">
-              <div className="contact-area">
+            <div class="col-lg-7 col-md-12">
+              <div class="contact-area">
                 <h2>Quick Contact Form</h2>
-                <div className="contact-form">
+                <div class="contact-form">
                   <form
                     method="post"
-                    className="contact-validation-active"
+                    class="contact-validation-active"
                     id="contact-form"
                   >
-                    <div className="half-col">
+                    <div class="half-col">
                       <input
                         type="text"
                         name="name"
                         id="name"
-                        className="form-control"
+                        class="form-control"
                         placeholder="Your Name"
                       />
                     </div>
-                    <div className="half-col">
+                    <div class="half-col">
                       <input
                         type="email"
                         name="email"
                         id="email"
-                        className="form-control"
+                        class="form-control"
                         placeholder="Your Email"
                       />
                     </div>
-                    <div className="half-col">
+                    <div class="half-col">
                       <input
                         type="text"
                         name="phone"
                         id="phone"
-                        className="form-control"
+                        class="form-control"
                         placeholder="Your Phone"
                       />
                     </div>
-                    <div className="half-col">
+                    <div class="half-col">
                       <input
                         type="text"
                         name="address"
                         id="address"
-                        className="form-control"
+                        class="form-control"
                         placeholder="Address"
                       />
                     </div>
                     <div>
                       <textarea
-                        className="form-control"
+                        class="form-control"
                         name="note"
                         id="note"
                         placeholder="Case Description..."
                       ></textarea>
                     </div>
-                    <div className="submit-btn-wrapper">
-                      <button type="submit" className="theme-btn-s3">
+                    <div class="submit-btn-wrapper">
+                      <button type="submit" class="theme-btn-s3">
                         Send
                       </button>
                       <div id="loader">
-                        <i className="fa fa-refresh fa-spin fa-3x fa-fw"></i>
+                        <i class="fa fa-refresh fa-spin fa-3x fa-fw"></i>
                       </div>
                     </div>
-                    <div className="clearfix error-handling-messages">
+                    <div class="clearfix error-handling-messages">
                       <div id="success">Thank you</div>
                       <div id="error">
                         {" "}
@@ -291,6 +256,167 @@ export default function ContactUs({ services }) {
           </div>
         </div>
       </div>
-    </div>
+
+      <section class="newsletter-section newsletter-section-2">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <h2>Subscribe Our Newsletter</h2>
+              <p>
+                Contrary to popular belief, Lorem Ipsum is not simply random
+                text.
+              </p>
+            </div>
+            <div class="col-lg-8">
+              <div class="newsletter">
+                <div class="newsletter-form">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                      <form>
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Email"
+                        />
+                      </form>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                      <form>
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Tracking Number"
+                        />
+                      </form>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                      <button type="submit">Subscribe</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="footer-area">
+        <div class="footer-top">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3 col-md-6 col-sm-6 footer-t">
+                <div class="footer-logo">
+                  <img src="assets/images/logo/logo.png" alt="" />
+                </div>
+                <p>
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority
+                </p>
+                <p>By injected humour, or randomised words</p>
+                <div class="social">
+                  <ul class="d-flex">
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 footer-t">
+                <div class="footer-link">
+                  <h3>Quick Link</h3>
+                  <ul>
+                    <li>
+                      <a href="#">About Us</a>
+                    </li>
+                    <li>
+                      <a href="#">Service</a>
+                    </li>
+                    <li>
+                      <a href="#">Location</a>
+                    </li>
+                    <li>
+                      <a href="#">Testimonial</a>
+                    </li>
+                    <li>
+                      <a href="#">Contact</a>
+                    </li>
+                    <li>
+                      <a href="#">Blog</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 footer-b">
+                <div class="Recent-News-area">
+                  <h3>Recent News</h3>
+                  <div class="resent-sub">
+                    <p>There are many variations of passages of Lorem</p>
+                    <span>
+                      <i class="fa fa-clock-o" aria-hidden="true"></i> Octobor
+                      10, 2018
+                    </span>
+                  </div>
+                  <p>There are many variations of passages of Lorem</p>
+                  <span>
+                    <i class="fa fa-clock-o" aria-hidden="true"></i> Octobor 10,
+                    2018
+                  </span>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6 col-12">
+                <div class="footer-widget instagram">
+                  <h3>Instagram</h3>
+                  <ul class="d-flex">
+                    <li>
+                      <a href="#">
+                        <img src="assets/images/instragram/1.jpg" alt="" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <img src="assets/images/instragram/2.jpg" alt="" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <img src="assets/images/instragram/3.jpg" alt="" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <img src="assets/images/instragram/4.jpg" alt="" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <img src="assets/images/instragram/5.jpg" alt="" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <img src="assets/images/instragram/6.jpg" alt="" />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </Fragment>
   );
 }

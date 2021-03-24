@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Navbar({ services }) {
+export default function Navbar({ services, standAlonePage }) {
   return (
     <header>
       <div className="header-top">
@@ -16,7 +16,7 @@ export default function Navbar({ services }) {
             </div>
             <div className="col-md-6 col-sm-12 col-12 col-lg-6">
               <div className="row">
-                <div className="col-lg-7 col-md-6">
+                <div className="col-lg-6 col-md-6">
                   <ul className="d-flex header-social">
                     <li>
                       <a href="#">
@@ -40,13 +40,13 @@ export default function Navbar({ services }) {
                     </li>
                   </ul>
                 </div>
-                <div className="col-lg-5 col-md-6">
+                <div className="col-lg-6 col-md-6">
                   <ul className="login-r">
                     <li>
                       <a href="/customer-login">Login </a>
                     </li>
                     <li>
-                      <a href="/customer-register">Register</a>
+                      <a href="/driver-register">Become A Picker</a>
                     </li>
                   </ul>
                 </div>
@@ -136,7 +136,7 @@ export default function Navbar({ services }) {
                       <a href="/contact-us">Contact</a>
                     </li>
                     <li>
-                      <a href="/become-a-dispatcher">Become A Dispatcher</a>
+                      <a href="/customer-register">Become A Customer</a>
                     </li>
                   </ul>
                 </nav>
