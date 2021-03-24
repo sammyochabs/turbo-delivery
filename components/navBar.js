@@ -1,7 +1,6 @@
-import Head from "next/head";
-import React, { Fragment } from "react";
+import React from "react";
 
-export default function NavBar({ services }) {
+export default function Navbar() {
   return (
     <header>
       <div className="header-top">
@@ -10,7 +9,7 @@ export default function NavBar({ services }) {
             <div className="col-md-6 col-sm-12 col-12 col-lg-6">
               <ul className="d-flex account_login-area">
                 <li>
-                  <i className="fa fa-clock-o" aria-hidden="true"></i>Mon - Fri
+                  <i className="fa fa-clock-o" aria-hidden="true"></i>Mon - Tues
                   : 6.00 am - 10.00 pm, Sunday Closed
                 </li>
               </ul>
@@ -44,10 +43,10 @@ export default function NavBar({ services }) {
                 <div className="col-lg-5 col-md-6">
                   <ul className="login-r">
                     <li>
-                      <a href="/customer-login">Login</a>
+                      <a href="#">Login </a>
                     </li>
                     <li>
-                      <a href="/customer-register">Register</a>
+                      <a href="#">Register</a>
                     </li>
                   </ul>
                 </div>
@@ -56,22 +55,17 @@ export default function NavBar({ services }) {
           </div>
         </div>
       </div>
-      <div
-        className={services === true ? "header-area-services" : "header-area"}
-        id="sticky-header"
-      >
+      <div className="header-area" id="sticky-header">
         <div className="container">
           <div className="row">
             <div className="col-lg-3 col-md-9 col-sm-9 col-9">
               <div className="logo">
-                <a href="/">
+                <a href="index-2.html">
                   <img
-                    width="190"
-                    height="40"
+                    className="logoImage"
                     src="assets/images/logo/logo.svg"
                     alt=""
                   />
-                  {/* TURBO */}
                 </a>
               </div>
             </div>
@@ -80,72 +74,87 @@ export default function NavBar({ services }) {
                 <nav className="nav_mobile_menu">
                   <ul>
                     <li className="active">
-                      <a href="/">Home</a>
-                    </li>
-
-                    {services ? (
-                      <li>
-                        <a href="#">TOP CITIES</a>
-                        <ul className="submenu">
-                          <li>
-                            <a href="#">Lagos</a>
-                          </li>
-                          <li>
-                            <a href="#">Ibadan</a>
-                          </li>
-                          <li>
-                            <a href="#">Oyo</a>
-                          </li>
-                          <li>
-                            <a href="#">Ogun</a>
-                          </li>
-                          <li>
-                            <a href="#">Ondo</a>
-                          </li>
-                          <li>
-                            <a href="#">Abuja</a>
-                          </li>
-                          <li>
-                            <a href="#">P/harcourt</a>
-                          </li>
-                          <li>
-                            <a href="ocean.html">Ekiti</a>
-                          </li>
-                        </ul>
-                      </li>
-                    ) : (
-                      <li>
-                        <a href="/services">Services</a>
-                        <ul className="submenu">
-                          <li>
-                            <a href="#">Land Transport</a>
-                          </li>
-                          <li>
-                            <a href="#">Logistics Solutions</a>
-                          </li>
-                          <li>
-                            <a href="#">Packaging And Store</a>
-                          </li>
-                          <li>
-                            <a href="#">Ocean Freight</a>
-                          </li>
-                        </ul>
-                      </li>
-                    )}
-
-                    <li>
-                      <a href="/testimonies">Testimonies</a>
+                      <a href="#">Home</a>
+                      <ul className="submenu">
+                        <li className="active">
+                          <a href="index-2.html">Home One</a>
+                        </li>
+                        <li>
+                          <a href="index-3.html">Home Two</a>
+                        </li>
+                        <li>
+                          <a href="index-4.html">Home Three</a>
+                        </li>
+                      </ul>
                     </li>
                     <li>
-                      <a href="/contact-us">Contact</a>
+                      <a href="about.html">About</a>
                     </li>
                     <li>
-                      <a href="/become-a-dispatcher">Become A Dispatcher</a>
+                      <a href="#">Services</a>
+                      <ul className="submenu">
+                        <li>
+                          <a href="service.html">service single</a>
+                        </li>
+                        <li>
+                          <a href="Freight.html">Air Freight</a>
+                        </li>
+                        <li>
+                          <a href="road.html">Road Freight</a>
+                        </li>
+                        <li>
+                          <a href="ocean.html">Ocean Freight</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="case.html">Pages</a>
+                      <ul className="submenu">
+                        <li>
+                          <a href="pricing.html">pricing table</a>
+                        </li>
+                        <li>
+                          <a href="team.html">Team</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="contact.html">Contact</a>
+                    </li>
+                    <li>
+                      <a href="#">Blog</a>
+                      <ul className="submenu">
+                        <li>
+                          <a href="blog.html">Blog with right sidebar</a>
+                        </li>
+                        <li>
+                          <a href="blog-right.html">Blog with Left sidebar</a>
+                        </li>
+                        <li>
+                          <a href="blog-fullwidth.html">Blog full width</a>
+                        </li>
+                        <li>
+                          <a href="blog-details.html">
+                            Blog single right sidebar
+                          </a>
+                        </li>
+                        <li>
+                          <a href="blog-details-right.html">
+                            Blog single left sidebar
+                          </a>
+                        </li>
+                        <li>
+                          <a href="blog-details-fullwidth.html">
+                            Blog single fullwidth
+                          </a>
+                        </li>
+                      </ul>
                     </li>
                   </ul>
                 </nav>
               </div>
             </div>
+
             <div className="col-12 d-block d-lg-none">
               <div className="mobile_menu"></div>
             </div>

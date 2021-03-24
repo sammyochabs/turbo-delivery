@@ -244,16 +244,13 @@ a:focus {
     background-color: rgba(255, 255, 255, 0.10);
     border-bottom:1px solid rgba(255, 255, 255, 0.30); 
   }
-  .header-area-services{
-    background:#142440;
-  }
   .account_login-area li:first-child{
     padding-left: 0;
   }
   .account_login-area li i{
     color:#31b5e1;
   }
- 
+
 .account_login-area .account-item {
     position: relative;
     color: #333;
@@ -315,6 +312,7 @@ a:focus {
 .logo {
     margin-top: 27px;
 }
+
 .main-menu .submenu li a {
     padding: 10px 15px 10px 0px;
     color: :#fff;
@@ -372,7 +370,7 @@ a:focus {
 
 .main-menu nav ul li:hover>a,
 .main-menu nav ul li.active>a {
-    color: #ff6700;
+    color: #34ccff;
 }
 
 .main-menu .submenu {
@@ -505,8 +503,7 @@ mobile menu
   text-align:right;
 }
 .btn-style a {
-    /* background-color: #34ccff; */
-    background-color:  #ff6700;
+    background-color: #34ccff;
     font-size: 15px;
     font-weight: 600;
     color: #fff;
@@ -517,8 +514,7 @@ mobile menu
     margin-top: 3px;
 }
 .btn-style a:hover{
-  /* background:#31b5e1;  */
-  background-color:  #ff6700;
+  background:#31b5e1; 
 }
 .search {
     text-align: right;
@@ -606,7 +602,6 @@ mobile menu
 .slide-caption{
   z-index: 19;
   padding-bottom: 45px;
-  padding-left: 50px;
 }
 
 .hero .slide {
@@ -825,7 +820,6 @@ mobile menu
   width: 50px;
   height:5px;
   background:#34ccff; 
-  background:  #ff6700;
 }
 .sec-p{
   padding-left: 30px;
@@ -849,7 +843,7 @@ mobile menu
   top: 5px;
   width: 15px;
   height:15px;
- background:  #ff6700;
+  background:#34ccff; 
 }
 .about-content .about-icon i:before{
   font-size: 60px;
@@ -875,7 +869,6 @@ mobile menu
 .service-area{
   padding: 100px 0 70px;
   background: #f5f5f5;
-  /* margin-top: 50px; */
 }
 .section-title span{
     font-size: 16px;
@@ -896,7 +889,7 @@ mobile menu
     bottom: 0;
     width: 60px;
     height: 3px;
-   background:  #ff6700;
+    background: #34ccff;
 }
 .service-single{
   overflow: hidden;
@@ -995,7 +988,6 @@ mobile menu
 }
 .service-area.service-s2 .service-item .service-single .service-icon {
     background-color: rgba(52, 203, 255, 0.2);
-    background-color: #ff6700;
     width: 90px;
     height: 90px;
     line-height: 90px;
@@ -1007,8 +999,7 @@ mobile menu
 }
 .service-area.service-s2 .service-item .service-single .service-icon:before {
     content: "";
-    /* background-color: rgba(52, 203, 255, 0.2); */
-  
+    background-color: rgba(52, 203, 255, 0.2);
     width: 100%;
     height: 100%;
     position: absolute;
@@ -1018,7 +1009,6 @@ mobile menu
 }
 .service-area.service-s2 .service-item .service-single .service-icon i {
     color: #142440;
-    
 }
 .service-area.service-s2 .service-item .service-single h2 {
     font-size: 20px;
@@ -1293,13 +1283,6 @@ mobile menu
 }
 .btn-style-4 a {
     border-radius:0px;
-}
-.join-dispatch-div{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  margin-top: 70px;
 }
 /*=======================================
 1.2 testimonial-area start
@@ -1715,7 +1698,6 @@ mobile menu
 }
 .footer-logo{
   margin-bottom: 30px;
- 
 }
 .social li a {
     display: block;
@@ -3194,7 +3176,7 @@ mobile menu
     display: block;
 }
 .theme-btn-s3 {
-    background-color: #ff6700;
+    background-color:#34ccff;
     font-size: 15px;
     font-weight: 700;
     color: #fff;
