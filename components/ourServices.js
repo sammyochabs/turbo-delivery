@@ -10,8 +10,8 @@ export default function OurServices() {
               <div class="col-md-6 col-sm-12 col-12 col-lg-6">
                 <ul class="d-flex account_login-area">
                   <li>
-                    <i class="fa fa-clock-o" aria-hidden="true"></i>Mon - Tues :
-                    6.00 am - 10.00 pm, Sunday Closed
+                    <i class="fa fa-clock-o" aria-hidden="true"></i>Mon - Sun :
+                    8.00 am - 10.00 pm
                   </li>
                 </ul>
               </div>
@@ -34,11 +34,6 @@ export default function OurServices() {
                           <i class="fa fa-instagram" aria-hidden="true"></i>
                         </a>
                       </li>
-                      <li>
-                        <a href="#">
-                          <i class="fa fa-google-plus" aria-hidden="true"></i>
-                        </a>
-                      </li>
                     </ul>
                   </div>
                   <div class="col-lg-6 col-md-6">
@@ -47,7 +42,7 @@ export default function OurServices() {
                         <a href="customer-login">Login</a>
                       </li>
                       <li>
-                        <a href="driver-register">Become A Picker</a>
+                        <a href="picker-register">Become A Picker</a>
                       </li>
                     </ul>
                   </div>
@@ -62,7 +57,7 @@ export default function OurServices() {
               <div class="col-lg-3 col-md-3 col-sm-12 col-12">
                 <div class="logo">
                   <a href="index-2.html">
-                    <img src="assets/images/logo/logo-2.png" alt="" />
+                    <img src="assets/images/logo/logo.png" alt="" />
                   </a>
                 </div>
               </div>
@@ -70,20 +65,23 @@ export default function OurServices() {
                 <ul class="d-flex account_login-area">
                   <li class="account-item">
                     <img src="assets/images/icon/call.svg" alt="" />
-                    <h5>
-                      <span>Call Us Now</span>T+(008) 001-234-567{" "}
+                    <h5 className="text-light">
+                      <span className="text-light">Call Us Now</span>T+(008)
+                      001-234-567{" "}
                     </h5>
                   </li>
                   <li class="account-item account-item-2">
                     <img src="assets/images/icon/message.svg" alt="" />
-                    <h5>
-                      <span>Mail Us Today</span>youremail@gmail.com
+                    <h5 className="text-light">
+                      <span className="text-light"> Mail Us Today</span>
+                      youremail@gmail.com
                     </h5>
                   </li>
                   <li class="account-item">
                     <img src="assets/images/icon/map.svg" alt="" />
-                    <h5>
-                      <span>Company Location</span>1230 Banena Street, London
+                    <h5 className="text-light">
+                      <span className="text-light">Company Location</span>1230
+                      Banena Street, London
                     </h5>
                   </li>
                 </ul>
@@ -103,13 +101,16 @@ export default function OurServices() {
                           <a href="/">Home</a>
                         </li>
                         <li>
-                          <a href="/about">About</a>
+                          <a href="/about-us">About</a>
                         </li>
                         <li>
                           <a href="/testimonies">Testimonies</a>
                         </li>
                         <li>
                           <a href="/contact-us">Contact</a>
+                        </li>
+                        <li>
+                          <a href="/picker">Picker</a>
                         </li>
                         <li>
                           <a href="/customer-register">Become A Customer</a>
@@ -139,14 +140,6 @@ export default function OurServices() {
             <div class="col-12">
               <div class="breadcumb-wrap text-center">
                 <h2>Our Services</h2>
-                <ul>
-                  <li>
-                    <a href="index-2.html">Home</a>
-                  </li>
-                  <li>
-                    <span>Services</span>
-                  </li>
-                </ul>
               </div>
             </div>
           </div>

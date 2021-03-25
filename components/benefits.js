@@ -44,7 +44,7 @@ export default function Benefits() {
           <div className="col-lg-4 col-md-6">
             <div className="features-item">
               <div className="feature-img">
-                <img src="assets/images/features/1.png" alt="" />
+                <img src="assets/images/features/1.jpg" alt="" />
               </div>
             </div>
           </div>

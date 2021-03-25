@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Steps() {
+export default function Steps({ picker }) {
   return (
     <div className="section-area section-style-2">
       <div className="container">
@@ -12,7 +12,9 @@ export default function Steps() {
               </div>
               <div className="section-content">
                 <p>
-                  <a href="ocean.html">Create An Account</a>
+                  <a href="ocean.html">
+                    {picker === true ? "Get Paid Quickly" : "Create An Account"}
+                  </a>
                 </p>
                 <span>
                   There are many variations of passages of Lorem Ipsum
@@ -28,7 +30,10 @@ export default function Steps() {
               <div className="section-content">
                 <p>
                   {" "}
-                  <a href="road.html">Place Your Order</a>
+                  <a href="road.html">
+                    {" "}
+                    {picker === true ? "Very Good Salary" : "Place Your Order"}
+                  </a>
                 </p>
                 <span>
                   There are many variations of passages of Lorem Ipsum
@@ -44,7 +49,12 @@ export default function Steps() {
               <div className="section-content">
                 <p>
                   {" "}
-                  <a href="Freight.html">We PickUp & Deliver</a>
+                  <a href="Freight.html">
+                    {" "}
+                    {picker === true
+                      ? "Health Insurance"
+                      : "We Pick-Up & Deliver"}
+                  </a>
                 </p>
                 <span>
                   There are many variations of passages of Lorem Ipsum

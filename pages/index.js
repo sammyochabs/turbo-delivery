@@ -13,6 +13,7 @@ import Stepper from "../components/stepper";
 import Steps from "../components/Steps";
 import Testimonial from "../components/testimonial";
 import WhyChooseUs from "../components/whyChooseUs";
+import Partners from "../components/partners";
 import styles from "../styles/Home.module.css";
 
 export default function HomePage() {
@@ -34,6 +35,7 @@ export default function HomePage() {
       <Counter />
       <Faq />
       <Testimonial />
+      <Partners />
       <Footer />
     </Fragment>
   );

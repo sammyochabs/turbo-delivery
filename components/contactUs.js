@@ -10,14 +10,14 @@ export default function ContactUs({ services }) {
               <div class="col-md-6 col-sm-12 col-12 col-lg-6">
                 <ul class="d-flex account_login-area">
                   <li>
-                    <i class="fa fa-clock-o" aria-hidden="true"></i>Mon - Tues :
-                    6.00 am - 10.00 pm, Sunday Closed
+                    <i class="fa fa-clock-o" aria-hidden="true"></i>Mon - Sun
+                    8.00 am - 10.00 pm
                   </li>
                 </ul>
               </div>
               <div class="col-md-6 col-sm-12 col-12 col-lg-6">
                 <div class="row">
-                  <div class="col-lg-7 col-md-6">
+                  <div class="col-lg-6 col-md-6">
                     <ul class="d-flex header-social">
                       <li>
                         <a href="#">
@@ -34,20 +34,15 @@ export default function ContactUs({ services }) {
                           <i class="fa fa-instagram" aria-hidden="true"></i>
                         </a>
                       </li>
-                      <li>
-                        <a href="#">
-                          <i class="fa fa-google-plus" aria-hidden="true"></i>
-                        </a>
-                      </li>
                     </ul>
                   </div>
-                  <div class="col-lg-5 col-md-6">
+                  <div class="col-lg-6 col-md-6">
                     <ul class="login-r">
                       <li>
                         <a href="/customer-login">Login</a>
                       </li>
                       <li>
-                        <a href="driver-register">Become A Picker</a>
+                        <a href="picker-register">Become A Picker</a>
                       </li>
                     </ul>
                   </div>
@@ -70,20 +65,23 @@ export default function ContactUs({ services }) {
                 <ul class="d-flex account_login-area">
                   <li class="account-item">
                     <img src="assets/images/icon/call.svg" alt="" />
-                    <h5>
-                      <span>Call Us Now</span>T+(008) 001-234-567{" "}
+                    <h5 className="text-light">
+                      <span className="text-light">Call Us Now</span>T+(008)
+                      001-234-567{" "}
                     </h5>
                   </li>
                   <li class="account-item account-item-2">
                     <img src="assets/images/icon/message.svg" alt="" />
-                    <h5>
-                      <span>Mail Us Today</span>youremail@gmail.com
+                    <h5 className="text-light">
+                      <span className="text-light">Mail Us Today</span>
+                      youremail@gmail.com
                     </h5>
                   </li>
                   <li class="account-item">
                     <img src="assets/images/icon/map.svg" alt="" />
-                    <h5>
-                      <span>Company Location</span>1230 Banena Street, London
+                    <h5 className="text-light">
+                      <span className="text-light">Company Location</span>1230
+                      Banena Street, London
                     </h5>
                   </li>
                 </ul>
@@ -103,7 +101,7 @@ export default function ContactUs({ services }) {
                           <a href="/">Home</a>
                         </li>
                         <li>
-                          <a href="/about">About</a>
+                          <a href="/about-us">About</a>
                         </li>
                         <li>
                           <a href="/services">About</a>
@@ -111,7 +109,9 @@ export default function ContactUs({ services }) {
                         <li>
                           <a href="/testimonies">Testimonies</a>
                         </li>
-
+                        <li>
+                          <a href="/picker">Picker</a>
+                        </li>
                         <li>
                           <a href="/customer-register">Become A Customer</a>
                         </li>
@@ -140,14 +140,6 @@ export default function ContactUs({ services }) {
             <div class="col-12">
               <div class="breadcumb-wrap text-center">
                 <h2>Contact Us</h2>
-                <ul>
-                  <li>
-                    <a href="index-2.html">Home</a>
-                  </li>
-                  <li>
-                    <span>Contact</span>
-                  </li>
-                </ul>
               </div>
             </div>
           </div>
@@ -300,123 +292,6 @@ export default function ContactUs({ services }) {
           </div>
         </div>
       </section>
-
-      <div class="footer-area">
-        <div class="footer-top">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-3 col-md-6 col-sm-6 footer-t">
-                <div class="footer-logo">
-                  <img src="assets/images/logo/logo.png" alt="" />
-                </div>
-                <p>
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority
-                </p>
-                <p>By injected humour, or randomised words</p>
-                <div class="social">
-                  <ul class="d-flex">
-                    <li>
-                      <a href="#">
-                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i class="fa fa-linkedin" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-6 col-sm-6 footer-t">
-                <div class="footer-link">
-                  <h3>Quick Link</h3>
-                  <ul>
-                    <li>
-                      <a href="#">About Us</a>
-                    </li>
-                    <li>
-                      <a href="#">Service</a>
-                    </li>
-                    <li>
-                      <a href="#">Location</a>
-                    </li>
-                    <li>
-                      <a href="#">Testimonial</a>
-                    </li>
-                    <li>
-                      <a href="#">Contact</a>
-                    </li>
-                    <li>
-                      <a href="#">Blog</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-6 col-sm-6 footer-b">
-                <div class="Recent-News-area">
-                  <h3>Recent News</h3>
-                  <div class="resent-sub">
-                    <p>There are many variations of passages of Lorem</p>
-                    <span>
-                      <i class="fa fa-clock-o" aria-hidden="true"></i> Octobor
-                      10, 2018
-                    </span>
-                  </div>
-                  <p>There are many variations of passages of Lorem</p>
-                  <span>
-                    <i class="fa fa-clock-o" aria-hidden="true"></i> Octobor 10,
-                    2018
-                  </span>
-                </div>
-              </div>
-              <div class="col-lg-3 col-sm-6 col-12">
-                <div class="footer-widget instagram">
-                  <h3>Instagram</h3>
-                  <ul class="d-flex">
-                    <li>
-                      <a href="#">
-                        <img src="assets/images/instragram/1.jpg" alt="" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <img src="assets/images/instragram/2.jpg" alt="" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <img src="assets/images/instragram/3.jpg" alt="" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <img src="assets/images/instragram/4.jpg" alt="" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <img src="assets/images/instragram/5.jpg" alt="" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <img src="assets/images/instragram/6.jpg" alt="" />
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </Fragment>
   );
 }

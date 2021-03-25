@@ -300,7 +300,7 @@ a:focus {
     top: 13px;
  }
 .header-top.header-top-2 {
-    background: #fff;
+    background: #ffa500;
     padding: 18px 0;
 }
 .header-top.header-top-2 span {
@@ -3053,6 +3053,10 @@ mobile menu
     margin-top: 100px;
     cursor: pointer;
 }
+.sign-up-area-bg{
+  background: #ffa500;
+  min-height: 100vh;
+}
 
 .contact-page-area .contact-map iframe {
     width: 100%;
@@ -3060,7 +3064,10 @@ mobile menu
     border: 0;
     outline: 0;
 }
-
+.agree-checkbox{
+  gap: 10px;
+ padding: 0px !important;
+}
 .contact-page-item h2 {
     font-size: 30px;
     font-weight: 400;
@@ -3107,13 +3114,34 @@ mobile menu
     width: 50%;
     float: left;
 }
-
+.contact-form-white{
+  background: white;
+  padding: 50px;
+  border-radius: 20px;
+}
+.signup-home-logo{
+  background: #ffa500;
+}
+.our-parner-text{
+  color: #ffa500 !important;
+  font-size: 30px;
+  font-weight: 700;
+    color: #333;
+    padding-bottom: 20px;
+    margin-bottom: 60px;
+    position: relative;
+}
 @media (max-width: 600px) {
 
     .contact-area form .half-col,
     .contact-area-s2 form .half-col {
         width: 100%;
         float: left;
+    }
+    .contact-form-white{
+      background: white;
+      padding: 20px;
+      border-radius: 20px;
     }
 }
 

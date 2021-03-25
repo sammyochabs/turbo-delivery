@@ -42,7 +42,7 @@ export default function Navbar({ services, standAlonePage }) {
                     </li>
                     <li>|</li>
                     <li>
-                      <a href="/driver-register">Become A Picker</a>
+                      <a href="/picker-register">Become A Picker</a>
                     </li>
                   </ul>
                 </div>
@@ -73,7 +73,7 @@ export default function Navbar({ services, standAlonePage }) {
                       <a href="/">Home</a>
                     </li>
                     <li>
-                      <a href="about.html">About</a>
+                      <a href="/about-us">About</a>
                     </li>
                     <li>
                       <a href="/services">Services</a>

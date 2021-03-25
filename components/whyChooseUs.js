@@ -1,12 +1,17 @@
 import React from "react";
 
-export default function WhyChooseUs() {
+export default function WhyChooseUs({ picker }) {
   return (
     <div className="service-area-wcu service-area service-s2">
       <div className="container">
         <div className="col-l2">
           <div className="section-title text-center">
-            <h2>Why Choose Us</h2>
+            <h2>
+              {" "}
+              {picker === true
+                ? "Why You Should Become Our Picker"
+                : "Why Choose Us"}
+            </h2>
           </div>
         </div>
         <div className="row">
@@ -16,7 +21,12 @@ export default function WhyChooseUs() {
                 <div className="service-icon">
                   <i className="fi flaticon-truck"></i>
                 </div>
-                <h2>Guaranteed Delivery</h2>
+                <h2>
+                  {" "}
+                  {picker === true
+                    ? "Guaranteed Payments"
+                    : "Guaranteed Delivery"}
+                </h2>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Illo, obcaecati.
@@ -30,7 +40,12 @@ export default function WhyChooseUs() {
                 <div className="service-icon">
                   <i className="fi flaticon-ship"></i>
                 </div>
-                <h2>Fast Response</h2>
+                <h2>
+                  {" "}
+                  {picker === true
+                    ? "Very Competitive Salary"
+                    : "Fast Response"}
+                </h2>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Illo, obcaecati.
@@ -44,7 +59,12 @@ export default function WhyChooseUs() {
                 <div className="service-icon">
                   <i className="fi flaticon-plane"></i>
                 </div>
-                <h2>Cost Effective</h2>
+                <h2>
+                  {" "}
+                  {picker === true
+                    ? "Flexible Working Hours"
+                    : "Cost Effective"}
+                </h2>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Illo, obcaecati.
