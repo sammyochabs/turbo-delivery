@@ -20,9 +20,16 @@ export default function Banner() {
                     <span>We Provide the Best Solution</span>{" "}
                     <span>For Your Transport.</span>
                   </h2>
-                  <div className="btns">
-                    <div className="btn-style">
-                      <a href="#">Contact us now</a>
+                  <div className="slider-btn-div">
+                    <div className="btns">
+                      <div className="btn-style">
+                        <a href="/customer-register">Become A Customer</a>
+                      </div>
+                    </div>
+                    <div className="btns">
+                      <div className="btn-style">
+                        <a href="driver-register">Become A Picker</a>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -42,9 +49,16 @@ export default function Banner() {
                     <span>We Provide the Best Solution</span>{" "}
                     <span>For Your Transport.</span>
                   </h2>
-                  <div className="btns">
-                    <div className="btn-style">
-                      <a href="#">Contact us now</a>
+                  <div className="slider-btn-div">
+                    <div className="btns">
+                      <div className="btn-style">
+                        <a href="/customer-register">Become A Customer</a>
+                      </div>
+                    </div>
+                    <div className="btns">
+                      <div className="btn-style">
+                        <a href="driver-register">Become A Picker</a>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -64,9 +78,45 @@ export default function Banner() {
                     <span>We Provide the Best Solution</span>{" "}
                     <span>For Your Transport.</span>
                   </h2>
-                  <div className="btns">
-                    <div className="btn-style">
-                      <a href="#">Contact us now</a>
+                  <div className="slider-btn-div">
+                    <div className="btns">
+                      <div className="btn-style">
+                        <a href="/customer-register">Become A Customer</a>
+                      </div>
+                    </div>
+                    <div className="btns">
+                      <div className="btn-style">
+                        <a href="driver-register">Become A Picker</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="slide">
+            <img
+              src="assets/images/slider/4.jpg"
+              alt="true"
+              className="slider-bg"
+            />
+            <div className="container">
+              <div className="row">
+                <div className="col col-lg-9 slide-caption">
+                  <h2>
+                    <span>We Provide the Best Solution</span>{" "}
+                    <span>For Your Transport.</span>
+                  </h2>
+                  <div className="slider-btn-div">
+                    <div className="btns">
+                      <div className="btn-style">
+                        <a href="/customer-register">Become A Customer</a>
+                      </div>
+                    </div>
+                    <div className="btns">
+                      <div className="btn-style">
+                        <a href="driver-register">Become A Picker</a>
+                      </div>
                     </div>
                   </div>
                 </div>

@@ -9,8 +9,8 @@ export default function Navbar({ services, standAlonePage }) {
             <div className="col-md-6 col-sm-12 col-12 col-lg-6">
               <ul className="d-flex account_login-area">
                 <li>
-                  <i className="fa fa-clock-o" aria-hidden="true"></i>Mon - Tues
-                  : 6.00 am - 10.00 pm, Sunday Closed
+                  <i className="fa fa-clock-o" aria-hidden="true"></i>Mon - Sun
+                  : 8.00 am - 09.00 pm
                 </li>
               </ul>
             </div>
@@ -33,11 +33,6 @@ export default function Navbar({ services, standAlonePage }) {
                         <i className="fa fa-instagram" aria-hidden="true"></i>
                       </a>
                     </li>
-                    <li>
-                      <a href="#">
-                        <i className="fa fa-google-plus" aria-hidden="true"></i>
-                      </a>
-                    </li>
                   </ul>
                 </div>
                 <div className="col-lg-6 col-md-6">
@@ -45,6 +40,7 @@ export default function Navbar({ services, standAlonePage }) {
                     <li>
                       <a href="/customer-login">Login </a>
                     </li>
+                    <li>|</li>
                     <li>
                       <a href="/driver-register">Become A Picker</a>
                     </li>
@@ -63,13 +59,13 @@ export default function Navbar({ services, standAlonePage }) {
                 <a href="index-2.html">
                   <img
                     className="logoImage"
-                    src="assets/images/logo/logo.svg"
+                    src="assets/images/logo/logo.png"
                     alt=""
                   />
                 </a>
               </div>
             </div>
-            <div className="col-lg-8 d-none d-lg-block">
+            <div className="col-lg-9 d-none d-lg-block">
               <div className="main-menu">
                 <nav className="nav_mobile_menu">
                   <ul>
@@ -79,61 +75,17 @@ export default function Navbar({ services, standAlonePage }) {
                     <li>
                       <a href="about.html">About</a>
                     </li>
-                    {services ? (
-                      <li>
-                        <a href="#">TOP CITIES</a>
-                        <ul className="submenu">
-                          <li>
-                            <a href="#">Lagos</a>
-                          </li>
-                          <li>
-                            <a href="#">Ibadan</a>
-                          </li>
-                          <li>
-                            <a href="#">Oyo</a>
-                          </li>
-                          <li>
-                            <a href="#">Ogun</a>
-                          </li>
-                          <li>
-                            <a href="#">Ondo</a>
-                          </li>
-                          <li>
-                            <a href="#">Abuja</a>
-                          </li>
-                          <li>
-                            <a href="#">P/harcourt</a>
-                          </li>
-                          <li>
-                            <a href="ocean.html">Ekiti</a>
-                          </li>
-                        </ul>
-                      </li>
-                    ) : (
-                      <li>
-                        <a href="/services">Services</a>
-                        <ul className="submenu">
-                          <li>
-                            <a href="#">Land Transport</a>
-                          </li>
-                          <li>
-                            <a href="#">Logistics Solutions</a>
-                          </li>
-                          <li>
-                            <a href="#">Packaging And Store</a>
-                          </li>
-                          <li>
-                            <a href="#">Ocean Freight</a>
-                          </li>
-                        </ul>
-                      </li>
-                    )}
-
+                    <li>
+                      <a href="/services">Services</a>
+                    </li>
                     <li>
                       <a href="/testimonies">Testimonies</a>
                     </li>
                     <li>
                       <a href="/contact-us">Contact</a>
+                    </li>
+                    <li>
+                      <a href="/picker">Picker</a>
                     </li>
                     <li>
                       <a href="/customer-register">Become A Customer</a>

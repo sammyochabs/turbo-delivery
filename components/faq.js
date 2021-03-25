@@ -12,7 +12,7 @@ export default function Faq() {
         <div className="row">
           <div className="container py-3">
             <div className="row">
-              <div className="col-10 mx-auto">
+              <div className="col-lg-10 col-md-12 mx-auto">
                 <div className="accordion" id="faqExample">
                   <div className="card">
                     <div className="card-header p-2" id="headingOne">

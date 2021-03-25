@@ -188,7 +188,7 @@ a:focus {
 ====================================*/
 
 .header-top{
-  background: #142440;
+  background: #ffa500;
 }
 .header-top ul.header-contact {
     text-align: right;
@@ -202,6 +202,9 @@ a:focus {
     padding-right: 10px;
     color: #fff;
 }
+.fa{
+  color: white !important;
+}
 .header-top  ul.login-r {
     text-align: right;
 }
@@ -209,14 +212,14 @@ a:focus {
    position: relative;
 }
 .header-top  ul.login-r li a{
-   color: #31b5e1;
+   color: white;
 }
-.header-top ul.login-r li+li:before {
+/* .header-top ul.login-r li+li:before {
     position: absolute;
-    content: "or";
+    content: "|";
     left: -8px;
     top: 14px;
-}
+} */
 .header-top ul.header-social {
     position: relative;
     justify-content: flex-end;
@@ -350,11 +353,15 @@ a:focus {
     bottom: 0;
     width: 100%;
     height: 5px;
-    background: #fff;
+    background: #ffa500;
     opacity: 0;
     transition: all .5s;
 }
-
+.slider-btn-div{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
 .main-menu nav ul li a:hover:before{
   opacity: 1;
   left: 0px;
@@ -370,7 +377,7 @@ a:focus {
 
 .main-menu nav ul li:hover>a,
 .main-menu nav ul li.active>a {
-    color: #34ccff;
+    color: white;
 }
 
 .main-menu .submenu {
@@ -414,7 +421,7 @@ display: none;
     left: 0;
     top: 0;
     width: 100%;
-    background:#142440;
+    background:#ffa500;
     z-index: 1200;
     box-shadow: 0px 1px 5px rgba(0, 0, 0, .1);
     -moz-box-shadow: 0px 1px 5px rgba(0, 0, 0, .1);
@@ -588,7 +595,7 @@ mobile menu
 .slide {
   position: relative;
 }
-.slide:after {
+/* .slide:after {
     content: "";
     width: 100%;
     height: 100%;
@@ -597,8 +604,10 @@ mobile menu
     top: 0;
     background: #333;
     opacity: .60;
-  }
-
+  } */
+.bi {
+  font-size: 40px;
+}
 .slide-caption{
   z-index: 19;
   padding-bottom: 45px;
@@ -773,8 +782,12 @@ mobile menu
 .section-item:hover .section-content p a{
   color:#fff;
 }
+.section-item:hover .section-icon i.bi{
+  background:#ffa500;
+  color:#fff;
+}
 .section-item:hover .section-icon i.fi{
-  background:#34ccff;
+  background:#ffa500;
   color:#fff;
 }
 .section-content p{
@@ -786,8 +799,15 @@ mobile menu
   color:#333;
   transition: all .5s;
 }
+.section-icon i.bi {
+  background:#ffa500;
+    padding: 47px 30px 30px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    transition: all .5s;
+}
 .section-icon i.fi {
-    background: #f5f5f5;
+  background:#ffa500;
     padding: 47px 30px 30px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -869,6 +889,10 @@ mobile menu
 .service-area{
   padding: 100px 0 70px;
   background: #f5f5f5;
+}
+.service-area{
+  padding: 100px 0 70px;
+  background: #fff !important;
 }
 .section-title span{
     font-size: 16px;
@@ -1790,7 +1814,7 @@ mobile menu
   padding-top: 40px;
 }
 .section-area.section-style-2 {
-    background: #fff;
+    background: #f5f5f5;
 }
 .section-area.section-style-2 .section-item{
   overflow: hidden;
@@ -1801,7 +1825,6 @@ mobile menu
     display: flex;
     justify-content: center;
     flex-direction: column;
-
 }
 .section-area.section-style-2 .section-content p a:hover {
     color: #34ccff;
@@ -1815,11 +1838,11 @@ mobile menu
     font-size: 16px;
     color: #777;
 }
-.section-area.section-style-2 .section-icon i.fi {
+.section-area.section-style-2 .section-icon i.bi {
     padding: 0;
     width: 90px;
     height: 90px;
-    background: #34ccff;
+    background:#ffa500;
     border-radius: 50%;
     line-height: 75px;
     text-align: center;
@@ -1827,6 +1850,19 @@ mobile menu
     margin-right: 20px;
     color:#fff;
     border:6px solid #d4f1fa;
+}
+.section-area.section-style-2 .section-icon i.fi {
+  padding: 0;
+  width: 90px;
+  height: 90px;
+  background:#ffa500;
+  border-radius: 50%;
+  line-height: 75px;
+  text-align: center;
+  margin-top: 35px;
+  margin-right: 20px;
+  color:#fff;
+  border:6px solid #d4f1fa;
 }
 .about-area.about-style-2{
   background: url(../images/about/2.jpg) no-repeat center top / cover;
@@ -1878,7 +1914,7 @@ mobile menu
 .features-area.features-style-2 .features-icon {
     width: 90px;
     height: 90px;
-    background: #34ccff;
+    background: #ffa500;
     border-radius: 50%;
     line-height: 75px;
     text-align: center;
@@ -2081,13 +2117,21 @@ mobile menu
     padding: 5px 20px 13px;
     display: inline-block;
 }
-.section-item-3 .section-icon i.fi {
+.section-item-3 .section-icon i.bi {
     box-shadow: 1px 1px 15px rgba(0, 0, 0, .09);
     border-radius: 5px;
 }
-.section-item-3:hover .section-icon i.fi {
+.section-item-3:hover .section-icon i.bi {
     background:#34ccff;
     color:#fff;
+}
+.section-item-3 .section-icon i.fi {
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, .09);
+  border-radius: 5px;
+}
+.section-item-3:hover .section-icon i.fi {
+  background:#34ccff;
+  color:#fff;
 }
 .about-ss {
     padding-left: 0;
@@ -3199,7 +3243,7 @@ mobile menu
 .section-style-2.section-style-3 .section-item-2 {
     padding: 0px;
 }
-.section-area.section-style-2.section-style-3 .section-icon i.fi {
+.section-area.section-style-2.section-style-3 .section-icon i.bi {
     margin-top: 25px;
 }
 .section-style-2.section-style-3 .section-wrap{

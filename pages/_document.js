@@ -31,7 +31,10 @@ class MyDocument extends Document {
 
           <link href="assets/css/style.css" rel="stylesheet" />
           <link href="assets/css/responsive.css" rel="stylesheet" />
-
+          <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css"
+          />
           <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         </Head>
