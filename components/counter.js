@@ -16,7 +16,7 @@ export default function Counter() {
               </p>
               <div className="btns">
                 <div className="btn-style btn-style-3">
-                  <a href="#">Learn More About Us...</a>
+                  <a href="about-us">Learn More About Us...</a>
                 </div>
               </div>
             </div>
