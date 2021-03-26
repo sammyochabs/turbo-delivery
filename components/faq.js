@@ -17,16 +17,16 @@ export default function Faq() {
                   <div className="card">
                     <div className="card-header p-2" id="headingOne">
                       <h5 className="mb-0">
-                        <button
-                          className="btn btn-link"
+                        <div
+                          className="faq-div btn-link collapsed text-wrap"
                           type="button"
                           data-toggle="collapse"
                           data-target="#collapseOne"
                           aria-expanded="true"
                           aria-controls="collapseOne"
                         >
-                          What is turbo
-                        </button>
+                          What is Turbo
+                        </div>
                       </h5>
                     </div>
 
@@ -45,8 +45,8 @@ export default function Faq() {
                   <div className="card">
                     <div className="card-header p-2" id="headingTwo">
                       <h5 className="mb-0">
-                        <button
-                          className="btn btn-link collapsed"
+                        <div
+                          className="faq-div btn-link collapsed text-wrap"
                           type="button"
                           data-toggle="collapse"
                           data-target="#collapseTwo"
@@ -54,7 +54,7 @@ export default function Faq() {
                           aria-controls="collapseTwo"
                         >
                           How much does turbo charge
-                        </button>
+                        </div>
                       </h5>
                     </div>
                     <div
@@ -71,16 +71,16 @@ export default function Faq() {
                   <div className="card">
                     <div className="card-header p-2" id="headingThree">
                       <h5 className="mb-0">
-                        <button
-                          className="btn btn-link collapsed"
+                        <div
+                          className="faq-div btn-link collapsed text-wrap"
                           type="button"
                           data-toggle="collapse"
                           data-target="#collapseThree"
                           aria-expanded="false"
                           aria-controls="collapseThree"
                         >
-                          Which locations does turbo cover
-                        </button>
+                          What locations does turbo cover
+                        </div>
                       </h5>
                     </div>
                     <div
@@ -97,8 +97,8 @@ export default function Faq() {
                   <div className="card">
                     <div className="card-header p-2" id="headingFour">
                       <h5 className="mb-0">
-                        <button
-                          className="btn btn-link collapsed"
+                        <div
+                          className="faq-div btn-link collapsed text-wrap"
                           type="button"
                           data-toggle="collapse"
                           data-target="#collapseFour"
@@ -106,7 +106,7 @@ export default function Faq() {
                           aria-controls="collapseFour"
                         >
                           Is turbo fast?
-                        </button>
+                        </div>
                       </h5>
                     </div>
                     <div
@@ -115,7 +115,7 @@ export default function Faq() {
                       aria-labelledby="headingFour"
                       data-parent="#faqExample"
                     >
-                      <div className="card-body">Turbo is very, very fast</div>
+                      <div className="card-body">Turbo is very fast</div>
                     </div>
                   </div>
                 </div>

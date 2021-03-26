@@ -12,21 +12,21 @@ export default function DispatcherFaq() {
         <div className="row">
           <div className="container py-3">
             <div className="row">
-              <div className="col-10 mx-auto">
+              <div className="col-lg-10 col-md-12 mx-auto">
                 <div className="accordion" id="faqExample">
                   <div className="card">
                     <div className="card-header p-2" id="headingOne">
                       <h5 className="mb-0">
-                        <button
-                          className="btn btn-link"
+                        <div
+                          className="faq-div btn-link collapsed text-wrap"
                           type="button"
                           data-toggle="collapse"
                           data-target="#collapseOne"
                           aria-expanded="true"
                           aria-controls="collapseOne"
                         >
-                          How much do i get paid
-                        </button>
+                          Who is a picker
+                        </div>
                       </h5>
                     </div>
 
@@ -37,24 +37,24 @@ export default function DispatcherFaq() {
                       data-parent="#faqExample"
                     >
                       <div className="card-body">
-                        Your salary will depend on how much experience you have,
-                        and how much goods you dispatch per week
+                        A picker is someone who picks up and delivers items for
+                        customers
                       </div>
                     </div>
                   </div>
                   <div className="card">
                     <div className="card-header p-2" id="headingTwo">
                       <h5 className="mb-0">
-                        <button
-                          className="btn btn-link collapsed"
+                        <div
+                          className="faq-div btn-link collapsed text-wrap"
                           type="button"
                           data-toggle="collapse"
                           data-target="#collapseTwo"
                           aria-expanded="false"
                           aria-controls="collapseTwo"
                         >
-                          Will i pay an application fee?
-                        </button>
+                          How much do i get paid
+                        </div>
                       </h5>
                     </div>
                     <div
@@ -64,24 +64,23 @@ export default function DispatcherFaq() {
                       data-parent="#faqExample"
                     >
                       <div className="card-body">
-                        No. application to become a dispatcher at turbo is
-                        totally free
+                        It depends on how hard you work
                       </div>
                     </div>
                   </div>
                   <div className="card">
                     <div className="card-header p-2" id="headingThree">
                       <h5 className="mb-0">
-                        <button
-                          className="btn btn-link collapsed"
+                        <div
+                          className="faq-div btn-link collapsed text-wrap"
                           type="button"
                           data-toggle="collapse"
                           data-target="#collapseThree"
                           aria-expanded="false"
                           aria-controls="collapseThree"
                         >
-                          Do i need to work with my personal vehicle?
-                        </button>
+                          Are the working hours flexible?
+                        </div>
                       </h5>
                     </div>
                     <div
@@ -91,24 +90,23 @@ export default function DispatcherFaq() {
                       data-parent="#faqExample"
                     >
                       <div className="card-body">
-                        No. Turbo will provide an official dispatch vehicle to
-                        you
+                        The working hours are very flexible
                       </div>
                     </div>
                   </div>
                   <div className="card">
                     <div className="card-header p-2" id="headingFour">
                       <h5 className="mb-0">
-                        <button
-                          className="btn btn-link collapsed"
+                        <div
+                          className="faq-div btn-link collapsed text-wrap"
                           type="button"
                           data-toggle="collapse"
                           data-target="#collapseFour"
                           aria-expanded="false"
                           aria-controls="collapseFour"
                         >
-                          Do i get benefits as a dispatcher?
-                        </button>
+                          Must i have my own delivery vehicle to work on turbo?
+                        </div>
                       </h5>
                     </div>
                     <div
@@ -118,7 +116,7 @@ export default function DispatcherFaq() {
                       data-parent="#faqExample"
                     >
                       <div className="card-body">
-                        Turbo gives you alot of benefits as a dispatcher
+                        No, we have vehicles for that
                       </div>
                     </div>
                   </div>
