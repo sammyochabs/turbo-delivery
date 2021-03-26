@@ -78,9 +78,9 @@ export default function Navbar({ services, standAlonePage }) {
                     <li>
                       <a href="/services">Services</a>
                     </li>
-                    <li>
+                    {/* <li>
                       <a href="/testimonies">Testimonies</a>
-                    </li>
+                    </li> */}
                     <li>
                       <a href="/contact-us">Contact</a>
                     </li>

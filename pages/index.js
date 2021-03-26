@@ -34,7 +34,7 @@ export default function HomePage() {
       <WhyChooseUs />
       <Counter />
       <Faq />
-      <Testimonial />
+      {/* <Testimonial /> */}
       <Partners />
       <Footer />
     </Fragment>

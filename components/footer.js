@@ -40,12 +40,11 @@ export default function Footer() {
                 <h3>Quick Link</h3>
                 <ul>
                   <li>
-                    <a href="/services">Service</a>
+                    <a href="/services">Services</a>
                   </li>
-
-                  <li>
+                  {/* <li>
                     <a href="/testimonies">Testimonial</a>
-                  </li>
+                  </li> */}
                   <li>
                     <a href="/contact-us">Contact</a>
                   </li>
@@ -53,7 +52,10 @@ export default function Footer() {
                     <a href="/customer-register">Sign Up</a>
                   </li>
                   <li>
-                    <a href="/driver-register">Join Us</a>
+                    <a href="/picker-register">Become A Picker</a>
+                  </li>
+                  <li>
+                    <a href="/picker">Picker</a>
                   </li>
                 </ul>
               </div>
@@ -75,43 +77,6 @@ export default function Footer() {
                 </span>
               </div>
             </div>
-            {/* <div className="col-lg-3 col-sm-6 col-12">
-              <div className="footer-widget instagram">
-                <h3>Instagram</h3>
-                <ul className="d-flex">
-                  <li>
-                    <a href="#">
-                      <img src="assets/images/instragram/1.jpg" alt="" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <img src="assets/images/instragram/2.jpg" alt="" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <img src="assets/images/instragram/3.jpg" alt="" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <img src="assets/images/instragram/4.jpg" alt="" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <img src="assets/images/instragram/5.jpg" alt="" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <img src="assets/images/instragram/6.jpg" alt="" />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div> */}
           </div>
         </div>
       </div>

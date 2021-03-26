@@ -72,6 +72,11 @@ export default function WhyChooseUs({ picker }) {
               </div>
             </div>
           </div>
+          <div className="btns mx-auto">
+            <div className="btn-style">
+              <a href="driver-register">Become A Picker Now</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

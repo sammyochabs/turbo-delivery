@@ -52,7 +52,7 @@ export default function Steps({ picker }) {
                   <a href="Freight.html">
                     {" "}
                     {picker === true
-                      ? "Health Insurance"
+                      ? "Flexible Hours"
                       : "We Pick-Up & Deliver"}
                   </a>
                 </p>

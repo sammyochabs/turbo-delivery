@@ -8,6 +8,7 @@ export default function Services() {
   return (
     <Fragment>
       <OurServices />
+      <Footer />
     </Fragment>
   );
 }

@@ -56,8 +56,8 @@ export default function ContactUs({ services }) {
             <div class="row">
               <div class="col-lg-3 col-md-3 col-sm-12 col-12">
                 <div class="logo">
-                  <a href="index-2.html">
-                    <img src="assets/images/logo/logo-2.png" alt="" />
+                  <a href="/">
+                    <img src="assets/images/logo/logo.png" alt="" />
                   </a>
                 </div>
               </div>
@@ -104,11 +104,11 @@ export default function ContactUs({ services }) {
                           <a href="/about-us">About</a>
                         </li>
                         <li>
-                          <a href="/services">About</a>
+                          <a href="/services">Services</a>
                         </li>
-                        <li>
+                        {/* <li>
                           <a href="/testimonies">Testimonies</a>
-                        </li>
+                        </li> */}
                         <li>
                           <a href="/picker">Picker</a>
                         </li>
@@ -120,11 +120,11 @@ export default function ContactUs({ services }) {
                   </div>
                 </div>
 
-                <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+                {/* <div class="col-lg-2 col-md-4 col-sm-6 col-6">
                   <div class="btn-style btn-style2">
                     <a href="#">Request a Quote</a>
                   </div>
-                </div>
+                </div> */}
                 <div class="col-12 col-sm-11 col-md-9 d-block d-lg-none">
                   <div class="mobile_menu"></div>
                 </div>
