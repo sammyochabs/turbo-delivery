@@ -15,25 +15,6 @@ export default function Footer() {
                 delivered intact, in time
               </p>
               <p>Turbo Delivery services</p>
-              <div className="social">
-                <ul className="d-flex">
-                  <li>
-                    <a href="#">
-                      <i className="fa fa-facebook" aria-hidden="true"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="fa fa-twitter" aria-hidden="true"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="fa fa-linkedin" aria-hidden="true"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
             </div>
             <div className="col-lg-3 col-md-6 col-sm-6 footer-t">
               <div className="footer-link">
@@ -55,26 +36,67 @@ export default function Footer() {
                     <a href="/picker-register">Become A Picker</a>
                   </li>
                   <li>
-                    <a href="/picker">Picker</a>
+                    <a href="/customer-register">Become A Customer</a>
                   </li>
                 </ul>
               </div>
             </div>
             <div className="col-lg-3 col-md-6 col-sm-6 footer-b">
-              <div className="Recent-News-area">
-                <h3>Recent News</h3>
-                <div className="resent-sub">
-                  <p>Turbo wins the best delivery start up</p>
-                  <span>
-                    <i className="fa fa-clock-o" aria-hidden="true"></i> Octobor
-                    10, 2018
-                  </span>
+              <div className="footer-link">
+                <h3>Other Menu</h3>
+                <ul>
+                  <li>
+                    <a href="/about-us">About Us</a>
+                  </li>
+                  {/* <li>
+                    <a href="/testimonies">Testimonial</a>
+                  </li> */}
+                  <li>
+                    <a href="/contact-us">Contact</a>
+                  </li>
+                  <li>
+                    <a href="/terms-and-conditions">Terms And Condition</a>
+                  </li>
+                  <li>
+                    <a href="/privacy">Privacy Policy</a>
+                  </li>
+                  <li>
+                    <a href="/cities">Cities Covered</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 col-sm-6 footer-b">
+              <div className="footer-link">
+                <h3>Connect With Us</h3>
+                <div className="social">
+                  <ul className="d-flex ">
+                    <li>
+                      <a className="footer-fa" href="#">
+                        <i
+                          className="fa orange-icon fa-facebook"
+                          aria-hidden="true"
+                        ></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a className="footer-fa" href="#">
+                        <i
+                          className="fa orange-icon fa-twitter"
+                          aria-hidden="true"
+                        ></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a className="footer-fa" href="#">
+                        <i
+                          className="fa orange-icon fa-linkedin"
+                          aria-hidden="true"
+                        ></i>
+                      </a>
+                    </li>
+                  </ul>
                 </div>
-                <p>Turbo wins the best delivery start up</p>
-                <span>
-                  <i className="fa fa-clock-o" aria-hidden="true"></i> Octobor
-                  10, 2018
-                </span>
               </div>
             </div>
           </div>

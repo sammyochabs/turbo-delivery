@@ -167,7 +167,7 @@ a:focus {
 }
 
 .back-to-top:hover {
-  background-color: #31b5e1;
+  background-color: #f15906;
 }
 
 .back-to-top i {
@@ -202,9 +202,12 @@ a:focus {
     padding-right: 10px;
     color: #fff;
 }
-.fa{
+/* .fa{
   color: white !important;
-}
+} */
+/* .orange-icon{
+  color: #f15906 !important;
+} */
 .header-top  ul.login-r {
     text-align: right;
 }
@@ -578,7 +581,7 @@ mobile menu
     cursor: pointer;
 }
 .search ul li > ul button:hover{
-    background:#31b5e1;
+    background:#f15906;
 }
 .search ul li:last-child a{
     padding-right: 0;
@@ -1740,7 +1743,7 @@ mobile menu
     height: 45px;
     width: 45px;
     background: #fff;
-    color: #333;
+    color: #f15906;
     line-height: 45px;
     border-radius: 50%;
     text-align: center;
@@ -1749,8 +1752,8 @@ mobile menu
     margin-top: 5px;
 }
 .social li a:hover{
-  background:#34ccff;
-  color:#fff;
+  background:#c5c5c5;
+  color:#f15906 !important;
 }
 .footer-top p {
     color: #fff;
@@ -1771,6 +1774,9 @@ mobile menu
 }
 .resent-sub{
   margin-bottom: 35px;
+}
+.footer-fa{
+  padding-top: 0px !important;
 }
 .instagram ul {
     flex-wrap: wrap;
@@ -3136,7 +3142,7 @@ mobile menu
   background: #f15906;
 }
 .our-parner-text{
-  color:  #f15906; !important;
+  /* color:  #f15906 !important; */
   font-size: 30px;
   font-weight: 700;
     color: #333;
@@ -3374,6 +3380,20 @@ mobile menu
 .contact-s p{
   color:#fff;
   font-weight: 18px;
+}
+.partners-logo{
+  margin: 60px 20px;
+}
+.menu-icon-custom{
+  color: white !important;
+}
+.custom_mobile_menu{
+  width: 100%;
+  background: #f15906;
+  position: absolute;
+  align-self: center;
+  padding: 10px;
+  color: white;
 }
 .Freight-item h3{
   font-size: 30px;

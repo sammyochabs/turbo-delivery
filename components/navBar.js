@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 
 export default function Navbar({ services, standAlonePage }) {
+  const [showMenu, setShowMenu] = useState(false);
+  const [menuClass, setMenuClass] = useState("menu-icon-custom bi bi-list");
   return (
     <header>
       <div className="header-top">
@@ -51,12 +53,12 @@ export default function Navbar({ services, standAlonePage }) {
           </div>
         </div>
       </div>
-      <div className="header-area" id="sticky-header">
+      <div className="header-area " id="sticky-header">
         <div className="container">
           <div className="row">
             <div className="col-lg-3 col-md-9 col-sm-9 col-9">
               <div className="logo">
-                <a href="index-2.html">
+                <a href="/">
                   <img
                     className="logoImage"
                     src="assets/images/logo/logo.png"
@@ -95,11 +97,51 @@ export default function Navbar({ services, standAlonePage }) {
               </div>
             </div>
 
-            <div className="col-12 d-block d-lg-none">
-              <div className="mobile_menu"></div>
+            <div className="col-3 d-block d-lg-none">
+              <i
+                onClick={() => {
+                  if (showMenu === true) {
+                    setShowMenu(false);
+                    setMenuClass("menu-icon-custom bi bi-list");
+                  } else {
+                    setShowMenu(true);
+                    setMenuClass("menu-icon-custom bi bi-x");
+                  }
+                }}
+                className={menuClass}
+              ></i>
             </div>
           </div>
         </div>
+        {showMenu && (
+          <div className="">
+            <nav className="custom_mobile_menu">
+              <ul>
+                <li className="active">
+                  <a href="/">Home</a>
+                </li>
+                <li>
+                  <a href="/about-us">About</a>
+                </li>
+                <li>
+                  <a href="/services">Services</a>
+                </li>
+                {/* <li>
+                      <a href="/testimonies">Testimonies</a>
+                    </li> */}
+                <li>
+                  <a href="/contact-us">Contact</a>
+                </li>
+                <li>
+                  <a href="/picker">Picker</a>
+                </li>
+                <li>
+                  <a href="/customer-register">Become A Customer</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        )}
       </div>
     </header>
   );

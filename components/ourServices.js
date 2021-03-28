@@ -115,7 +115,7 @@ export default function OurServices() {
                     <img src="assets/images/service/1.jpg" alt="" />
                   </div>
                   <div class="service-content">
-                    <h3>Land Transport</h3>
+                    <h3>Curbside Pickup/Delivery</h3>
                     <p>
                       There are many variations of passages of Lorem Ipsum
                       available, but the majority ,{" "}
@@ -132,7 +132,7 @@ export default function OurServices() {
                     <img src="assets/images/service/2.jpg" alt="" />
                   </div>
                   <div class="service-content service-content2">
-                    <h3>Sea Freight</h3>
+                    <h3>Documents Pickup/Delivery</h3>
                     <p>
                       There are many variations of passages of Lorem Ipsum
                       available, but the majority ,{" "}
@@ -149,58 +149,7 @@ export default function OurServices() {
                     <img src="assets/images/service/3.jpg" alt="" />
                   </div>
                   <div class="service-content service-content3">
-                    <h3>Air Freight</h3>
-                    <p>
-                      There are many variations of passages of Lorem Ipsum
-                      available, but the majority ,{" "}
-                    </p>
-                    <a href="#">See More...</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="service-item">
-                <div class="service-single">
-                  <div class="service-img">
-                    <img src="assets/images/service/4.jpg" alt="" />
-                  </div>
-                  <div class="service-content service-content4">
-                    <h3>Logistic Solutions</h3>
-                    <p>
-                      There are many variations of passages of Lorem Ipsum
-                      available, but the majority ,{" "}
-                    </p>
-                    <a href="#">See More...</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="service-item">
-                <div class="service-single">
-                  <div class="service-img">
-                    <img src="assets/images/service/5.jpg" alt="" />
-                  </div>
-                  <div class="service-content service-content5">
-                    <h3>Packaging and Store</h3>
-                    <p>
-                      There are many variations of passages of Lorem Ipsum
-                      available, but the majority ,{" "}
-                    </p>
-                    <a href="#">See More...</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="service-item">
-                <div class="service-single">
-                  <div class="service-img">
-                    <img src="assets/images/service/6.jpg" alt="" />
-                  </div>
-                  <div class="service-content service-content6">
-                    <h3>Warehousing</h3>
+                    <h3>Packages Pickup/delivery</h3>
                     <p>
                       There are many variations of passages of Lorem Ipsum
                       available, but the majority ,{" "}
@@ -251,139 +200,6 @@ export default function OurServices() {
           </div>
         </div>
       </section>
-
-      <div class="team-area team-area-2 team-area-3">
-        <div class="container">
-          <div class="col-l2">
-            <div class="section-title text-center">
-              <span>We Are With You</span>
-              <h2>Our Team Members</h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-3 col-md-6 col-12">
-              <div class="team-single">
-                <div class="team-img">
-                  <img src="assets/images/team/1.jpg" alt="" />
-                  <div class="social-1st">
-                    <ul>
-                      <li>
-                        <a href="#">
-                          <i class="fa fa-facebook" aria-hidden="true"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="fa fa-twitter" aria-hidden="true"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="fa fa-linkedin" aria-hidden="true"></i>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="team-content">
-                  <h4>Elizabeth Bannet</h4>
-                  <span>Logistic Maneger</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-12">
-              <div class="team-single">
-                <div class="team-img">
-                  <img src="assets/images/team/2.jpg" alt="" />
-                  <div class="social-1st">
-                    <ul>
-                      <li>
-                        <a href="#">
-                          <i class="fa fa-facebook" aria-hidden="true"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="fa fa-twitter" aria-hidden="true"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="fa fa-linkedin" aria-hidden="true"></i>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="team-content">
-                  <h4>Johnthan Rok</h4>
-                  <span>Packeging Maneger</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-12">
-              <div class="team-single">
-                <div class="team-img">
-                  <img src="assets/images/team/3.jpg" alt="" />
-                  <div class="social-1st">
-                    <ul>
-                      <li>
-                        <a href="#">
-                          <i class="fa fa-facebook" aria-hidden="true"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="fa fa-twitter" aria-hidden="true"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="fa fa-linkedin" aria-hidden="true"></i>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="team-content">
-                  <h4>Simon D’soza</h4>
-                  <span>Logistic Maneger</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-12">
-              <div class="team-single">
-                <div class="team-img">
-                  <img src="assets/images/team/4.jpg" alt="" />
-                  <div class="social-1st">
-                    <ul>
-                      <li>
-                        <a href="#">
-                          <i class="fa fa-facebook" aria-hidden="true"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="fa fa-twitter" aria-hidden="true"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="fa fa-linkedin" aria-hidden="true"></i>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="team-content">
-                  <h4>Nancy Jimac</h4>
-                  <span>Logistic Maneger</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
       <section class="newsletter-section">
         <div class="container">

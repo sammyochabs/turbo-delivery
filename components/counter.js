@@ -26,7 +26,7 @@ export default function Counter() {
               <div className="grid">
                 <div>
                   <h2>
-                    <span className="odometer" data-count="4,012">
+                    <span className="odometer" data-count="110">
                       00
                     </span>
                   </h2>
@@ -36,17 +36,17 @@ export default function Counter() {
               <div className="grid">
                 <div>
                   <h2>
-                    <span className="odometer" data-count="605">
+                    <span className="odometer" data-count="4">
                       00
                     </span>
                   </h2>
                 </div>
-                <p>Countries Covered</p>
+                <p>Cities Covered</p>
               </div>
               <div className="grid">
                 <div>
                   <h2>
-                    <span className="odometer" data-count="920">
+                    <span className="odometer" data-count="15">
                       00
                     </span>
                   </h2>
@@ -56,12 +56,12 @@ export default function Counter() {
               <div className="grid">
                 <div>
                   <h2>
-                    <span className="odometer" data-count="3,592">
+                    <span className="odometer" data-count="200">
                       00
                     </span>
                   </h2>
                 </div>
-                <p>Tons of Goods</p>
+                <p>Distance Covered(km)</p>
               </div>
             </div>
           </div>

@@ -14,7 +14,8 @@ import Steps from "../components/Steps";
 import Testimonial from "../components/testimonial";
 import WhyChooseUs from "../components/whyChooseUs";
 import Partners from "../components/partners";
-import styles from "../styles/Home.module.css";
+import ReactCarousel from "../components/carousel";
+import AutoPlay from "../components/carousel";
 
 export default function HomePage() {
   return (
@@ -35,7 +36,8 @@ export default function HomePage() {
       <Counter />
       <Faq />
       {/* <Testimonial /> */}
-      <Partners />
+      {/* <Partners /> */}
+      <AutoPlay />
       <Footer />
     </Fragment>
   );

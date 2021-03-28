@@ -10,7 +10,17 @@ export default function Picker() {
   return (
     <Fragment>
       <Navbar />
-      <Banner picker={true} />
+      <div class="breadcumb-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="breadcumb-wrap text-center">
+                <h2>Become A Picker</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <Steps picker={true} />
       <WhyChooseUs picker={true} />
       <DispatcherFaq />
