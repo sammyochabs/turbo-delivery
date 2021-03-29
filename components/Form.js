@@ -113,13 +113,20 @@ export default function Form({ picker, login }) {
                     <div className="w-100 ml-3 mb-3 agree-checkbox d-flex flex-row align-items-center">
                       <input type="checkbox" id="agree" />
                       <label htmlFor="agree" className="mt-2">
-                        You agree to the terms and conditions by turbo
-                        deliveries.
+                        You agree to the
+                        <a style={{
+                          color: 'blue',
+                          cursor: 'pointer'
+                        }} href="/terms-and-conditions">
+                          {" "}
+                          terms and conditions
+                        </a>{" "}
+                        by turbo deliveries.
                       </label>
                     </div>
                     <div className="submit-btn-wrapper">
                       <button type="submit" className="theme-btn-s3">
-                        Send
+                        Register
                       </button>
                       <div id="loader">
                         <i className="fa fa-refresh fa-spin fa-3x fa-fw"></i>
