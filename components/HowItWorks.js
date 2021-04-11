@@ -3,11 +3,11 @@ import NavBar from "./navBar";
 import BreadCumb from "./breadCumb";
 import Footer from "./footer";
 
-export default function Privacy() {
+export default function HowItWorks() {
   return (
     <Fragment>
       <NavBar />
-      <BreadCumb label={"Privacy Policy"} />
+      <BreadCumb label={"How It Works"} />
       <div class="blog-page-area section-padding">
         <div class="container">
           <div class="row">
@@ -51,7 +51,7 @@ export default function Privacy() {
               <div class="blog-left-bar">
                 <div class="blog-item">
                   <div class="blog-content-2">
-                    <h2>Our Privacy Policy</h2>
+                    <h2>How It Works</h2>
                     <p>
                       I will give you a complete account of the system, and
                       expound the actual teachings of the great explorer of the

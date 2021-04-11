@@ -26,7 +26,7 @@ export default function AboutUs() {
               <div class="row">
                 <div class="col-lg-12 col-md-6">
                   <div class="contact-us-area">
-                    <h3>Contuct Us</h3>
+                    <h3>Contact Us</h3>
                     <div class="contact-s">
                       <span>
                         <i class="fa fa-phone" aria-hidden="true"></i>Call Us
@@ -52,7 +52,7 @@ export default function AboutUs() {
                 <div class="col-lg-12 col-md-6">
                   <div class="catagory-item">
                     <div class="widget-title">
-                      <h3 class="text-left">Message Us</h3>
+                      <h3 class="text-left">Contact Us</h3>
                     </div>
                     <div class="category-section">
                       <div className="contact-form">

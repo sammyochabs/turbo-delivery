@@ -11,7 +11,7 @@ export default function Banner({ picker }) {
         </section>
       ) : (
         <section className="hero hero-slider-wrapper hero-style-1 hero-style-2">
-          <div className="hero-slider">
+          <div className="hero-slider mt-5">
             <div className="slide">
               <img
                 src="assets/images/slider/2.jpg"

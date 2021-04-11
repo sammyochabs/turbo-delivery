@@ -2,7 +2,7 @@ import React from "react";
 
 export default function WhyChooseUs({ picker }) {
   return (
-    <div className="service-area-wcu service-area service-s2">
+    <div className="service-area-wcu service-area service-s2 service-style-3">
       <div className="container">
         <div className="col-l2">
           <div className="section-title text-center">

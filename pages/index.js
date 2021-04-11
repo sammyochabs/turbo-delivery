@@ -2,20 +2,13 @@ import Head from "next/head";
 import { Fragment } from "react";
 import Banner from "../components/banner";
 import Benefits from "../components/benefits";
-import Counter from "../components/counter";
-import Faq from "../components/faq";
 import Footer from "../components/footer";
 import InstantDelivery from "../components/instantDelivery";
 import NavBar from "../components/navBar";
 import OurService from "../components/our-services";
-import ParnerWithUs from "../components/parnerWithUs";
-import Stepper from "../components/stepper";
+import OurServices from "../components/ourServices";
 import Steps from "../components/Steps";
-import Testimonial from "../components/testimonial";
 import WhyChooseUs from "../components/whyChooseUs";
-import Partners from "../components/partners";
-import ReactCarousel from "../components/carousel";
-import AutoPlay from "../components/carousel";
 
 export default function HomePage() {
   return (
@@ -30,14 +23,15 @@ export default function HomePage() {
       <Steps />
       <InstantDelivery />
       <OurService />
+
       <Benefits />
-      <ParnerWithUs />
+      {/* <ParnerWithUs /> */}
       <WhyChooseUs />
-      <Counter />
-      <Faq />
+      {/* <Counter /> */}
+      {/* <Faq /> */}
       {/* <Testimonial /> */}
       {/* <Partners /> */}
-      <AutoPlay />
+      {/* <AutoPlay /> */}
       <Footer />
     </Fragment>
   );

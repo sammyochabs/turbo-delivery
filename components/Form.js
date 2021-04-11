@@ -114,10 +114,13 @@ export default function Form({ picker, login }) {
                       <input type="checkbox" id="agree" />
                       <label htmlFor="agree" className="mt-2">
                         You agree to the
-                        <a style={{
-                          color: 'blue',
-                          cursor: 'pointer'
-                        }} href="/terms-and-conditions">
+                        <a
+                          style={{
+                            color: "blue",
+                            cursor: "pointer",
+                          }}
+                          href="/terms-and-conditions"
+                        >
                           {" "}
                           terms and conditions
                         </a>{" "}

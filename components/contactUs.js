@@ -125,11 +125,8 @@ export default function ContactUs({ services }) {
         <div class="container">
           <div class="row">
             <div class="col-lg-4">
-              <h2>Subscribe Our Newsletter</h2>
-              <p>
-                Contrary to popular belief, Lorem Ipsum is not simply random
-                text.
-              </p>
+              <h2>Be The First To Know</h2>
+              <p>Enter Your name and email and be the first to know</p>
             </div>
             <div class="col-lg-8">
               <div class="newsletter">
@@ -140,16 +137,16 @@ export default function ContactUs({ services }) {
                         <input
                           type="text"
                           class="form-control"
-                          placeholder="Email"
+                          placeholder="Your Name"
                         />
                       </form>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6">
                       <form>
                         <input
-                          type="text"
+                          type="email"
                           class="form-control"
-                          placeholder="Tracking Number"
+                          placeholder="Email"
                         />
                       </form>
                     </div>

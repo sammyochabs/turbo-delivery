@@ -27,16 +27,16 @@ export default function Footer() {
                     <a href="/testimonies">Testimonial</a>
                   </li> */}
                   <li>
-                    <a href="/contact-us">Contact</a>
-                  </li>
-                  <li>
-                    <a href="/customer-register">Sign Up</a>
+                    <a href="/faqs">FAQs</a>
                   </li>
                   <li>
                     <a href="/picker-register">Become A Picker</a>
                   </li>
                   <li>
                     <a href="/customer-register">Become A Customer</a>
+                  </li>
+                  <li>
+                    <a href="/how-it-works">How It Works</a>
                   </li>
                 </ul>
               </div>
@@ -51,9 +51,7 @@ export default function Footer() {
                   {/* <li>
                     <a href="/testimonies">Testimonial</a>
                   </li> */}
-                  <li>
-                    <a href="/contact-us">Contact</a>
-                  </li>
+
                   <li>
                     <a href="/terms-and-conditions">Terms And Condition</a>
                   </li>
