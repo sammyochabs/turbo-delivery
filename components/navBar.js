@@ -92,6 +92,9 @@ export default function Navbar({ services, standAlonePage }) {
                     <li>
                       <a href="/customer-register">Become A Customer</a>
                     </li>
+                    <li>
+                      <a href="/how-it-works">How It Works</a>
+                    </li>
                   </ul>
                 </nav>
               </div>

@@ -36,6 +36,9 @@ export default function Footer() {
                     <a href="/customer-register">Become A Customer</a>
                   </li>
                   <li>
+                    <a href="/contact-us">Contact Us</a>
+                  </li>
+                  <li>
                     <a href="/how-it-works">How It Works</a>
                   </li>
                 </ul>

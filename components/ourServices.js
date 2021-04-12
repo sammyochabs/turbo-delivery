@@ -55,7 +55,7 @@ export default function OurServices() {
             <div class="col-lg-8 col-md-12 col-sm-12">
               <div class="tr-wrap">
                 <div class="t-text">
-                  <h2>Internation Logistics & Transport</h2>
+                  <h2>Turbo Delivery Services</h2>
                   <p>
                     We Provide you the best service in the world.It is a long
                     established fact that a reader will be distracted by the
