@@ -347,7 +347,7 @@ a:focus {
     font-weight: 500;
     color: #fff;
     letter-spacing: 0;
-    text-transform: uppercase;
+    text-transform: capitalize;
     position: relative;
     padding-bottom: 10px;
 }
