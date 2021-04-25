@@ -1,6 +1,55 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 
 export default function Form({ picker, login }) {
+  const firstNameRef = useRef(null);
+  const LastNameRef = useRef(null);
+  const emailRef = useRef(null);
+  const phoneRef = useRef(null);
+  const passRef = useRef(null);
+  const addressRef = useRef(null);
+
+  const [message, setMessage] = useState();
+
+  async function handleSignUp(e) {
+    e.preventDefault();
+    if (picker !== true) {
+      const resp = await fetch("/api/auth/customerRegister", {
+        method: "POST",
+        headers: {
+          "content-type": "application/json",
+        },
+        credentials: "include",
+        body: JSON.stringify({
+          email: emailRef.current?.value,
+          firstName: firstNameRef.current?.value,
+          lastName: LastNameRef.current?.value,
+          phone: phoneRef.current?.value,
+          address: addressRef.current?.value,
+          password: passRef.current?.value,
+        }),
+      });
+      const json = await resp.json();
+      setMessage(json);
+    } else {
+      const resp = await fetch("/api/auth/pickerRegister", {
+        method: "POST",
+        headers: {
+          "content-type": "application/json",
+        },
+        credentials: "include",
+        body: JSON.stringify({
+          email: emailRef.current?.value,
+          firstName: firstNameRef.current?.value,
+          lastName: LastNameRef.current?.value,
+          phone: phoneRef.current?.value,
+          address: addressRef.current?.value,
+          password: passRef.current?.value,
+        }),
+      });
+      const json = await resp.json();
+      setMessage(json);
+    }
+  }
   return (
     <div className="contact-page-area section-padding">
       <div className="container">
@@ -61,6 +110,7 @@ export default function Form({ picker, login }) {
                         type="text"
                         name="firstName"
                         id="firstName"
+                        ref={firstNameRef}
                         className="form-control"
                         placeholder="First Name"
                       />
@@ -70,6 +120,7 @@ export default function Form({ picker, login }) {
                         type="text"
                         name="lastName"
                         id="lastName"
+                        ref={LastNameRef}
                         className="form-control"
                         placeholder="Last Name"
                       />
@@ -79,6 +130,7 @@ export default function Form({ picker, login }) {
                         type="email"
                         name="email"
                         id="email"
+                        ref={emailRef}
                         className="form-control"
                         placeholder="Your Email"
                       />
@@ -88,6 +140,7 @@ export default function Form({ picker, login }) {
                         type="password"
                         name="password"
                         id="password"
+                        ref={passRef}
                         className="form-control"
                         placeholder="Password"
                       />
@@ -97,6 +150,7 @@ export default function Form({ picker, login }) {
                         type="text"
                         name="phone"
                         id="phone"
+                        ref={phoneRef}
                         className="form-control"
                         placeholder="Your Phone"
                       />
@@ -106,6 +160,7 @@ export default function Form({ picker, login }) {
                         type="text"
                         name="address"
                         id="address"
+                        ref={addressRef}
                         className="form-control"
                         placeholder="Address"
                       />
@@ -128,9 +183,21 @@ export default function Form({ picker, login }) {
                       </label>
                     </div>
                     <div className="submit-btn-wrapper">
-                      <button type="submit" className="theme-btn-s3">
+                      <button
+                        onClick={handleSignUp}
+                        type="submit"
+                        className="theme-btn-s3"
+                      >
                         Register
                       </button>
+                      {message?.message === "successfull" ? (
+                        <p className="text-success">
+                          You have successfully registered please check your
+                          email for confirmation
+                        </p>
+                      ) : (
+                        ""
+                      )}
                       <div id="loader">
                         <i className="fa fa-refresh fa-spin fa-3x fa-fw"></i>
                       </div>

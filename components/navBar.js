@@ -10,10 +10,7 @@ export default function Navbar({ services, standAlonePage }) {
           <div className="row">
             <div className="col-md-6 col-sm-12 col-12 col-lg-6">
               <ul className="d-flex account_login-area">
-                <li>
-                  <i className="fa fa-clock-o" aria-hidden="true"></i>Mon - Sun
-                  : 8.00 am - 09.00 pm
-                </li>
+                <li>Welcome To Turbo Delivery</li>
               </ul>
             </div>
             <div className="col-md-6 col-sm-12 col-12 col-lg-6">
@@ -34,17 +31,6 @@ export default function Navbar({ services, standAlonePage }) {
                       <a href="#">
                         <i className="fa fa-instagram" aria-hidden="true"></i>
                       </a>
-                    </li>
-                  </ul>
-                </div>
-                <div className="col-lg-6 col-md-6">
-                  <ul className="login-r">
-                    <li>
-                      <a href="/customer-login">Login </a>
-                    </li>
-                    <li>|</li>
-                    <li>
-                      <a href="/picker-register">Become A Picker</a>
                     </li>
                   </ul>
                 </div>
@@ -75,26 +61,26 @@ export default function Navbar({ services, standAlonePage }) {
                       <a href="/">Home</a>
                     </li>
                     <li>
-                      <a href="/about-us">About</a>
+                      <a href="/about-us">About Us</a>
                     </li>
                     <li>
-                      <a href="/services">Services</a>
-                    </li>
-                    {/* <li>
-                      <a href="/testimonies">Testimonies</a>
-                    </li> */}
-                    <li>
-                      <a href="/contact-us">Contact</a>
+                      <a href="/how-it-works">How It Works</a>
                     </li>
                     <li>
                       <a href="/picker">Picker</a>
                     </li>
                     <li>
-                      <a href="/customer-register">Become A Customer</a>
+                      <a href="/contact-us">Contact</a>
                     </li>
                     <li>
-                      <a href="/how-it-works">How It Works</a>
+                      <a href="/get-started">Get Started</a>
                     </li>
+                    <li>
+                      <a href="/services">Services</a>
+                    </li>
+                    {/* <li>
+                      <a href="/customer-register">Become A Customer</a>
+                    </li> */}
                   </ul>
                 </nav>
               </div>
@@ -124,22 +110,22 @@ export default function Navbar({ services, standAlonePage }) {
                   <a href="/">Home</a>
                 </li>
                 <li>
-                  <a href="/about-us">About</a>
+                  <a href="/about-us">About Us</a>
                 </li>
                 <li>
-                  <a href="/services">Services</a>
-                </li>
-                {/* <li>
-                      <a href="/testimonies">Testimonies</a>
-                    </li> */}
-                <li>
-                  <a href="/contact-us">Contact</a>
+                  <a href="/how-it-works">How It Works</a>
                 </li>
                 <li>
                   <a href="/picker">Picker</a>
                 </li>
                 <li>
-                  <a href="/customer-register">Become A Customer</a>
+                  <a href="/contact-us">Contact</a>
+                </li>
+                <li>
+                  <a href="/get-started">Get Started</a>
+                </li>
+                <li>
+                  <a href="/services">Services</a>
                 </li>
               </ul>
             </nav>

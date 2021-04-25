@@ -25,7 +25,7 @@ export default function Steps({ picker }) {
           <div className="col-lg-4 col-md-6 col-sm-12 col-d">
             <div className="section-item-2">
               <div className="section-icon">
-                <i class="bi bi-telephone-outbound"></i>
+                <i className="bi bi-telephone-outbound"></i>
               </div>
               <div className="section-content">
                 <p>

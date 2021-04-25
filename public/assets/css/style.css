@@ -515,7 +515,7 @@ mobile menu
   text-align:right;
 }
 .btn-style a {
-    background-color: #34ccff;
+    
     background-color: #f15906;
     font-size: 15px;
     font-weight: 600;
@@ -529,6 +529,12 @@ mobile menu
 .btn-style a:hover{
   background:#31b5e1; 
   background-color:  #f15906;
+}
+.getStartedButtonsContainer{
+  gap: 50px;
+}
+.getStartedLink{
+  color: white;
 }
 .search {
     text-align: right;
@@ -2415,7 +2421,6 @@ mobile menu
 .blog-content-2 a {
     font-size: 16px;
     text-transform: uppercase;
-    color: #34ccff;
     font-weight: 600;
 
 }
